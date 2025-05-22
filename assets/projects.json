@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Smart Home Dashboard",
+    "desc": "A responsive web dashboard for monitoring and controlling smart home devices in real time.",
+    "tags": ["React", "Node.js", "WebSockets"],
+    "category": "web",
+    "date": "2024-06-01",
+    "views": 2100,
+    "img": "assets/projects/smart-home.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "Smart Home Dashboard"
+  },
+  {
+    "title": "Fitness Pro App",
+    "desc": "A cross-platform mobile app for personalized fitness plans, workout tracking, and progress analytics.",
+    "tags": ["Flutter", "Firebase", "Dart"],
+    "category": "mobile",
+    "date": "2024-05-15",
+    "views": 1750,
+    "img": "assets/projects/fitness-pro.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "Fitness Pro App"
+  },
+  {
+    "title": "E-Commerce API",
+    "desc": "A scalable RESTful API for e-commerce platforms with authentication, product management, and order processing.",
+    "tags": ["Node.js", "Express", "MongoDB"],
+    "category": "backend",
+    "date": "2024-04-20",
+    "views": 1600,
+    "img": "assets/projects/ecommerce-api.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "E-Commerce API"
+  },
+  {
+    "title": "Travel Explorer",
+    "desc": "A modern web app for discovering, planning, and sharing travel itineraries with interactive maps.",
+    "tags": ["JavaScript", "Mapbox", "CSS Grid"],
+    "category": "web",
+    "date": "2024-03-10",
+    "views": 1400,
+    "img": "assets/projects/travel-explorer.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "Travel Explorer"
+  },
+  {
+    "title": "Health Tracker Mobile",
+    "desc": "A mobile app for tracking daily health metrics, habits, and providing personalized recommendations.",
+    "tags": ["Flutter", "Dart", "SQLite"],
+    "category": "mobile",
+    "date": "2024-02-28",
+    "views": 1200,
+    "img": "assets/projects/health-tracker.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "Health Tracker Mobile"
+  },
+  {
+    "title": "Real-Time Chat Service",
+    "desc": "A backend service for real-time messaging with group chat, notifications, and media support.",
+    "tags": ["Node.js", "Socket.io", "Redis"],
+    "category": "backend",
+    "date": "2024-01-15",
+    "views": 1350,
+    "img": "assets/projects/chat-service.jpg",
+    "live": "#",
+    "source": "#",
+    "alt": "Real-Time Chat Service"
+  }
+] 

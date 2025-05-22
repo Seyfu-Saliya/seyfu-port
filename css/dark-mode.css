@@ -1,0 +1,110 @@
+/* Theme Toggle Styles */
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+}
+
+.theme-switch {
+    display: none;
+}
+
+.theme-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 30px;
+    background-color: var(--background-color);
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid var(--border-color);
+}
+
+.theme-label::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s ease;
+}
+
+.theme-switch:checked + .theme-label::after {
+    transform: translateX(30px);
+}
+
+.sun-icon,
+.moon-icon {
+    font-size: 14px;
+    z-index: 1;
+}
+
+.sun-icon {
+    margin-left: 5px;
+}
+
+.moon-icon {
+    margin-right: 5px;
+}
+
+/* Dark Mode Specific Styles */
+[data-theme="dark"] {
+    --primary-color-rgb: 59, 130, 246;
+    --background-color: #111827;
+    --text-color: #f3f4f6;
+    --text-light: #9ca3af;
+    --border-color: #374151;
+    --card-bg: #1f2937;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .theme-label {
+    background-color: var(--card-bg);
+}
+
+[data-theme="dark"] .theme-label::after {
+    background-color: var(--primary-color);
+}
+
+/* Theme Transition */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Specific Element Styles */
+[data-theme="dark"] .nav-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .tech-card-front,
+[data-theme="dark"] .tech-card-back {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .chat-container {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .chat-input input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .message.bot {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .scroll-top {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+} 

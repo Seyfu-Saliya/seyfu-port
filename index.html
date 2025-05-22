@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyfu Saliya - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Remove Custom Cursor -->
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="nav-brand" tabindex="0">
+            <span class="logo-ss" aria-label="Seyfu Saliya Home">
+                <span class="logo-ss-1">S</span><span class="logo-ss-2">S</span>
+            </span>
+        </div>
+        <button class="nav-toggle" aria-label="Open navigation menu" aria-controls="main-menu" aria-expanded="false">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-links" id="main-menu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="cv.html" class="nav-link">CV</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-switch">
+            <label for="theme-switch" class="theme-label"><i class="sun-icon">☀️</i><i class="moon-icon">🌙</i></label>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="animated-headline">
+                <span class="greeting">Hi, I'm</span>
+                <span class="name">Seyfu Saliya</span>
+                <span class="title">Web & Mobile App Developer</span>
+            </h1>
+            <p class="hero-description">
+                Computer Science graduate specializing in JavaScript, Node.js, React, and Flutter development.
+                Creating modern, responsive, and user-friendly applications.
+            </p>
+            <div class="cta-buttons">
+                <a href="portfolio.html" class="btn primary-btn">View My Work</a>
+                <a href="contact.html" class="btn secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="shape"></div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Explorer -->
+    <section class="tech-stack">
+        <h2>Tech Stack Explorer</h2>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🌐</i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Building responsive websites with HTML5, CSS3, and modern JavaScript (ES6+).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🟨</i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Dynamic, interactive web applications using vanilla JS and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🔷</i>
+                        <h3>TypeScript</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Type-safe JavaScript for scalable, maintainable codebases.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">⚛️</i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Building dynamic user interfaces with React's component-based architecture and virtual DOM.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🟢</i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Developing scalable backend services and APIs using Node.js and Express.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">📱</i>
+                        <h3>Flutter</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Creating cross-platform mobile applications with Flutter's beautiful UI components.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🐙</i>
+                        <h3>Git & GitHub</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Version control and collaboration using Git and GitHub best practices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-card">
+                <div class="tech-card-inner">
+                    <div class="tech-card-front">
+                        <i class="tech-icon">🗄️</i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="tech-card-back">
+                        <p>Experience with MongoDB, PostgreSQL, and Firebase for data-driven apps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/project1.png.png" alt="Seyfu Saliya" class="project-profile-img">
+                </div>
+                <div class="project-info">
+                    <h3>Online Property Tax Payment System</h3>
+                    <p>A full-stack Online Payment solution built with Flutter and Kotlin</p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Kotlin</span>
+                        <span>Firebase</span>
+                        <span>API</span>
+                    </div>
+                    <a href="portfolio.html" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget" aria-live="polite" aria-label="Chat widget">
+        <button class="chat-toggle" aria-label="Open chat">
+            <i class="chat-icon">💬</i>
+        </button>
+        <div class="chat-container" role="dialog" aria-modal="true" aria-label="Chat with Seyfu Saliya">
+            <div class="chat-header">
+                <div class="chat-header-avatar-status">
+                    <span class="chat-avatar-icon" aria-label="Bot" style="font-size:2rem;">🤖</span>
+                    <span class="chat-status online" aria-label="Online"></span>
+                </div>
+                <h3 class="chat-title">Seyfu AI Assistant</h3>
+                <button class="close-chat" aria-label="Close chat">×</button>
+            </div>
+            <div class="chat-messages" aria-live="polite" aria-atomic="false">
+                <div class="message bot">
+                    <span class="chat-avatar-bot" aria-label="Bot" style="font-size:1.5rem;">🤖</span>
+                    <span class="chat-bubble">Hi! How can I help you today?</span>
+                    <span class="chat-timestamp">Now</span>
+                </div>
+            </div>
+            <div class="chat-typing-indicator" style="display:none;">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="typing-text">Seyfu AI is typing...</span>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." aria-label="Type your message">
+                <button class="send-message" aria-label="Send message">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top">
+        <span>↑</span>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="GitHub">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.091-.647.35-1.089.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.686-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.699 1.028 1.593 1.028 2.686 0 3.847-2.339 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.577.688.479C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+                </a>
+                <a href="#" target="_blank" aria-label="LinkedIn">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.966 0-1.75-.79-1.75-1.76 0-.97.784-1.76 1.75-1.76s1.75.79 1.75 1.76c0 .97-.784 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/></svg>
+                </a>
+                <a href="#" target="_blank" aria-label="Twitter">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.384 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.254a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.513 14.009-14.009 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/></svg>
+                </a>
+                <a href="#" target="_blank" aria-label="Telegram">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10c0-5.523-4.477-10-10-10zm4.93 7.29l-1.43 6.77c-.11.48-.39.6-.79.37l-2.18-1.61-1.05 1.01c-.12.12-.23.23-.47.23l.17-2.39 4.36-3.94c.19-.17-.04-.27-.29-.1l-5.39 3.39-2.32-.73c-.5-.16-.51-.5.1-.73l9.06-3.5c.42-.16.79.1.65.72z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2024 Seyfu Saliya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/preloader.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/chat-widget.js"></script>
+</body>
+</html> 
